@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Music Player</title>
+</head>
+<body>
+  <div class="heading">
+    <h1>Music Player App</h1>
+    <button id="toggleThemeBtn" onclick="toggleTheme()">Toggle Theme</button>
+  </div>
+  <div class="container">
+    <div class="all-song-div">
+      <h2>All Songs</h2>
+      <label for="genreFilter">Filter by Genre:</label>
+      <select id="genreFilter" onchange="showSongs()">
+        <option value="all">All Genres</option>
+        <option value="pop">Pop</option>
+        <option value="rock">Rock</option>
+       
+      </select>
+      <ul id="songList"></ul>
+    </div>
+    <div class="card-div">
+      <h2>Music Player</h2>
+      <div id="songCard">
+        <!-- Song card content will be dynamically updated here -->
+      </div>
+    </div>
+    <div class="playlist-div">
+      <h2>Playlists</h2>
+      <button onclick="createPlaylist()">Create Playlist</button>
+      <ul id="playlistList">
+        <!-- Playlists will be dynamically updated here -->
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

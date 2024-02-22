@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e4e2e2;
+  }
+  
+  .heading {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .all-song-div,
+  .card-div,
+  .playlist-div {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    padding: 8px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
+  /* Add your dark theme styles here */
+  .dark-theme {
+    background-color: #000000;
+    color: #fff;
+  }
+  
+  /* Add your light theme styles here */
+  .light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
